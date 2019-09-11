@@ -1,0 +1,25 @@
+{
+  "image": {},
+  "db": {
+    "mongodb": {
+      "host": "localhost",
+      "name": "fakebook",
+      "erase_db": true,
+      "fixture": "prod"
+    }
+  },
+  "authy": {},
+  "onesignal": {},
+  "server": {
+    "domain": "",
+    "port": 1337,
+    "images": "",
+    "socketio": {
+    }
+  },
+  "eventConfig": {
+    "wildcard": true,
+    "newListener": true,
+    "maxListeners": 2000
+  }
+}

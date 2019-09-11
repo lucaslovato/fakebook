@@ -1,0 +1,126 @@
+{
+  "login": {
+    "user_not_found": {
+      "title": "Usuario não cadastrado!",
+      "description": "O usuario é inexistente ou você escreveu o email erroneamente.",
+      "buttons":
+      [
+        {
+          "label": "ok",
+          "method": null
+        }
+      ]
+    },
+    "wrong_password": {
+      "title": "Senha errada!",
+      "description": "A senha não confere.",
+      "buttons": [
+        {
+          "label": "OK",
+          "method": null
+        }
+      ]
+    }
+  },
+  "user": {
+    "first_name_required": {
+      "title": "Nome!",
+      "description": "O usuario deve possuir um nome.",
+      "buttons": [
+        {
+          "label": "ok",
+          "method": null
+        }
+      ],
+      "type": "first_name_required"
+    },
+    "surname_required": {
+      "title": "Sobrenome!",
+      "description": "O usuario deve possuir um sobrenome.",
+      "buttons": [
+        {
+          "label": "ok",
+          "method": null
+        }
+      ],
+      "type": "surname_required"
+    },
+    "birthdate_required": {
+      "title": "Data de nascimento!",
+      "description": "O usuario deve possuir uma data de nascimento.",
+      "buttons": [
+        {
+          "label": "ok",
+          "method": null
+        }
+      ],
+      "type": "birthdate_required"
+    },
+    "matriculation_required": {
+      "title": "Matricula!",
+      "description": "O usuario deve possuir uma matricula.",
+      "buttons": [
+        {
+          "label": "ok",
+          "method": null
+        }
+      ],
+      "type": "matriculation_required"
+    },
+    "email_required": {
+      "title": "Email!",
+      "description": "O usuario deve possuir um email.",
+      "buttons": [
+        {
+          "label": "ok",
+          "method": null
+        }
+      ],
+      "type": "email_required"
+    },
+    "11000": {
+      "title": "Email!",
+      "description": "Esse email já está cadastrado.",
+      "buttons": [
+        {
+          "label": "ok",
+          "method": null
+        }
+      ],
+      "type": "email_unique"
+    },
+    "password_required": {
+      "title": "Senha!",
+      "description": "O usuario deve possuir uma senha.",
+      "buttons": [
+        {
+          "label": "ok",
+          "method": null
+        }
+      ],
+      "type": "password_required"
+    },
+    "type_required": {
+      "title": "Tipo!",
+      "description": "O usuario deve possuir um tipo.",
+      "buttons": [
+        {
+          "label": "ok",
+          "method": null
+        }
+      ],
+      "type": "type_required"
+    },
+    "full_required_errors": {
+      "title": "Usuario!",
+      "description": "",
+      "buttons": [
+        {
+          "label": "ok",
+          "method": null
+        }
+      ],
+      "type": "full_required_errors"
+    }
+  }
+}

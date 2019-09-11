@@ -1,0 +1,44 @@
+{
+  "name": "Fakebook",
+  "description": "Ambiente de Pesquisa ",
+  "version": "2.0.0",
+  "author": "Pedro Augusto Freddi Rodrigues <peaugust@hotmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "postinstall": "npm prune",
+    "lint": "node node_modules/eslint/bin/eslint.js src/*.js"
+  },
+  "dependencies": {
+    "@mdi/font": "^2.7.94",
+    "axios": "^0.18.0",
+    "eventemitter2": "^4.1.2",
+    "lil-uuid": "^0.1.1",
+    "localforage": "^1.7.1",
+    "mdi": "^2.2.43",
+    "socket.io-client": "^2.1.1",
+    "vue": "^2.5.13",
+    "vuelidate": "^0.6.1",
+    "vuetify": "^1.1.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^12.1.0",
+    "vue-router": "^2.7.0",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}

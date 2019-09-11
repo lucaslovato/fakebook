@@ -1,0 +1,14 @@
+{
+  "model": "admin",
+  "data": [
+    {
+      "_id": "59e8d9095191ebeca03799a2",
+      "first_name": "Admin",
+      "surname": "Admin",
+      "birthdate": "Sun Nov 09 2003 19:43:28 GMT-0200 (Horário brasileiro de verão)",
+      "password": "4dm1nlj",
+      "email": "admin@admin.com",
+      "type": "admin"
+    }
+  ]
+}

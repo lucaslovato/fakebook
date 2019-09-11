@@ -1,0 +1,50 @@
+{
+  "idioma": {
+    "nome": {
+      "REQUIRED": "tem que ter."
+    }
+  },
+  "user":{
+    "first_name": {
+      "REQUIRED": "first_name_required"
+    },
+    "surname": {
+      "REQUIRED": "surname_required"
+    },
+    "birthdate": {
+      "REQUIRED": "birthdate_required"
+    },
+    "matriculation": {
+      "REQUIRED": "matriculation_required"
+    },
+    "email": {
+      "REQUIRED": "email_required",
+      "UNIQUE": "email_unique"
+    },
+    "password": {
+      "REQUIRED": "password_required"
+    },
+    "type": {
+      "REQUIRED": "type_required"
+    },
+    "login":{
+      "USUARIO_INEXISTENTE": "Usuário não cadastrado.",
+      "EMAIL_INVALIDO": "E-mail inválido.",
+      "SENHA_INVALIDA": "Senha inválida.",
+      "REMOVIDO": "Conta desativada.",
+      "ERROR_LOGIN_UPDATE": "Erro ao atualizar o usuário para logado.",
+      "botoes":{
+        "WANNA_LOGOUT": {
+          "SIM":{
+            "label": "Sim",
+            "funcao": "forcar_login"
+          },
+          "NAO":{
+            "label": "Nao",
+            "funcao": "fechar_modal"
+          }
+        }
+      }
+    }
+  }
+}
