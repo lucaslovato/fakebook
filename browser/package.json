@@ -17,7 +17,7 @@
     "lil-uuid": "^0.1.1",
     "localforage": "^1.7.1",
     "mdi": "^2.2.43",
-    "socket.io-client": "^2.1.1",
+    "socket.io-client": "^2.5.0",
     "vue": "^2.5.13",
     "vuelidate": "^0.6.1",
     "vuetify": "^1.1.1",
