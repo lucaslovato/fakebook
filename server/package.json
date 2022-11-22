@@ -43,7 +43,7 @@
     "password-generator": "^2.2.0",
     "simplify-commerce": "^1.6.0",
     "sjcl": "^1.0.3",
-    "socket.io": "^2.1.1",
+    "socket.io": "^2.5.0",
     "superagent": "^3.5.2",
     "superagent-jsonp": "^0.1.1",
     "superagent-xml2jsparser": "^0.1.1",
