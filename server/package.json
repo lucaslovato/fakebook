@@ -32,7 +32,7 @@
     "cors": "^2.8.1",
     "data2xml": "^1.2.5",
     "eventemitter2": "^0.4.14",
-    "express": "^4.13.4",
+    "express": "^4.17.3",
     "http-status-codes": "^1.1.6",
     "json2xls": "^0.1.2",
     "jsonschema": "^1.1.1",
